@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import React { Component } from 'react';
-=======
 import React, { Component } from 'react';
 import {
   Collapse,
@@ -15,7 +12,6 @@ import {
   DropdownMenu,
   DropdownItem 
 } from 'reactstrap';
->>>>>>> 8d5c195410526baeab1e5f10a7bd6ee3cc48eeeb
 
 
 export default class NavBar extends React.Component {
@@ -98,4 +94,5 @@ export default class NavBar extends React.Component {
     )
   }
 }
+
 
