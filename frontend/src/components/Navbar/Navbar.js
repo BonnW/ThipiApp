@@ -13,8 +13,10 @@ import {
   DropdownItem 
 } from 'reactstrap';
 
+import './Navbar.css';
 
-export default class NavBar extends React.Component {
+
+export default class NavbarComponent extends React.Component {
   constructor(props) {
     super(props);
 
@@ -33,6 +35,9 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div className={'Nav'}>
+        <div className={'testDiv'}>
+          testing some shit
+        </div>
         <Navbar>
           <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
