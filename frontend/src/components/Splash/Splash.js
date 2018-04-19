@@ -24,11 +24,12 @@ export default class Splash extends React.Component {
     return (
       <div className="Root--Component">
         <div className="Header"> 
-          <div className="ThipiLogo--Container">
-            <img className="ThipiLogo--image" src={Logo} alt="ThipiLogo" />
+          <div className="Header__Logo">
+            <img className="ThipiLogo" src={Logo} alt="ThipiLogo" />
           </div>
-          <div className="Header--Title">Thipi Thai</div>
-          <div className="Header--subTitle">Restaurant & Bar</div>
+          <div className="Header__Title">Sup' Bitches</div>
+        </div>
+        <div className="Login">
           <Form>
             <FormGroup>
               <Label for="exampleEmail">Email</Label>

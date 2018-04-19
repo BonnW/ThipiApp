@@ -1,15 +1,28 @@
+
+body {
+  background-image: url("../../srcIMGs/BG.png");
+  background-color: #cccccc;
+}
+
+
 .Header {
-    border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-.Header--Title {
-    font-size: 3em;
-}
-
-.ThipiLogo--Container {
-  /* border: 1px solid black; */
-}
-
-.ThipiLogo--image {
+.Header__Title {
+  margin: 20px;
+  align-self: center;
   width: 500px;
+  border-bottom: 1px solid white;  
+  font-size: 4em;
+  font-family: 'Merienda', cursive;
+  color: white;
+}
+
+
+
+.ThipiLogo {
+  width: 350px;
 }
