@@ -5,3 +5,11 @@
 .Header--Title {
     font-size: 3em;
 }
+
+.ThipiLogo--Container {
+  /* border: 1px solid black; */
+}
+
+.ThipiLogo--image {
+  width: 500px;
+}
