@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Splash from './components/Splash/Splash';
+import LoginForm from './components/LoginForm/LoginForm';
 
 import './components/Navbar/Navbar.css';
 
@@ -40,6 +41,7 @@ class App extends Component {
       <div className="App">
         {/* <SayHello firstName={true} lastName={false} />, */}
         <Splash />
+        <LoginForm />
         {/* <Navbar /> */}
 
       </div>

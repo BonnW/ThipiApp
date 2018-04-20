@@ -1,0 +1,40 @@
+
+.Login {
+  border: 1px solid black;
+  
+}
+
+
+
+Form {
+  display: table;
+  margin: 40px auto;
+
+}
+
+Label {
+  position: relative;
+  display: block;
+
+}
+
+Input {
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+  font-size: 30px;
+  font-family: 'Merienda', cursive;
+  height: 65px;
+  width: 300px;
+  border-radius: 20px;
+}
+

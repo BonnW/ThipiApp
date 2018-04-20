@@ -7,7 +7,7 @@ import {
 
 } from 'reactstrap';
 
-import './Splash.css';
+import './LoginForm.css';
 import Logo from '../../srcIMGs/Logo.png';
 
 
@@ -25,15 +25,16 @@ export default class LoginForm extends React.Component {
       <div className="Login">
         <Form>
           <FormGroup>
-            <Label for="exampleEmail">Email</Label>
-            <Input type="email" name="email" id="exampleEmail" placeholder="Your Email" />
+            <Label for="exampleEmail"></Label>
+            <Input type="email" className="UserEmail" placeholder="Email" />
           </FormGroup>
           <FormGroup>
-            <Label for="examplePass">Password</Label>
-            <Input type="password" name="password" id="examplePassword" placeholder="Your Password" />
+            <Label for="examplePass"></Label>
+            <Input type="password" className="UserPassword" placeholder="Password" />
           </FormGroup>
         </Form>
-        <button className="GuestButton">Continue as Guest</button>
+        
+        <button className="SignInButton">-Sign In-</button>
       </div>
     )
   }
