@@ -29,19 +29,7 @@ export default class Splash extends React.Component {
           </div>
           <div className="Header__Title">Sup' Bitches</div>
         </div>
-        <div className="Login">
-          <Form>
-            <FormGroup>
-              <Label for="exampleEmail">Email</Label>
-              <Input type="email" name="email" id="exampleEmail" placeholder="Your Email" />
-            </FormGroup>
-            <FormGroup>
-              <Label for="examplePass">Password</Label>
-                <Input type="password" name="password" id="examplePassword" placeholder="Your Password" />
-            </FormGroup>
-          </Form>
-          <button className="GuestButton">Continue as Guest</button>
-        </div>
+        
       </div>
     )
   }
