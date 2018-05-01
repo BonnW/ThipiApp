@@ -21,7 +21,7 @@ export default class Splash extends React.Component {
           <div className="Header__Logo">
             <img className="ThipiLogo" src={Logo} alt="ThipiLogo" />
           </div>
-          <div className="Header__Title">Sup' Bitches</div>
+          <div className="Header__Title">Thipi Thai</div>
         </div>
         
       </div>

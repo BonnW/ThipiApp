@@ -1,6 +1,5 @@
 
 .Login {
-  border: 1px solid black;
   
 }
 
@@ -9,7 +8,7 @@
 Form {
   display: table;
   margin: 40px auto;
-
+  opacity: 0.5;
 }
 
 Label {
@@ -36,5 +35,7 @@ button {
   height: 65px;
   width: 300px;
   border-radius: 20px;
+  color: #964c1c;
+  background-color: #ffc550
 }
 
