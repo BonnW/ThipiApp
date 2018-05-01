@@ -8,10 +8,9 @@ import {
 } from 'reactstrap';
 
 import './LoginForm.css';
-import Logo from '../../srcIMGs/Logo.png';
 
 
-export default class LoginForm extends React.Component { 
+export default class LoginForm extends Component { 
   constructor(props) {
     super();
 

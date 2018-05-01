@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -16,7 +15,7 @@ import {
 import './Navbar.css';
 
 
-export default class NavbarComponent extends React.Component {
+export default class NavbarComponent extends Component {
   constructor(props) {
     super(props);
 

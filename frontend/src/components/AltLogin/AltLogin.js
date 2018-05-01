@@ -6,7 +6,7 @@ import fbLogin from '../../srcIMGs/fbBar.png';
 import googleLogin from '../../srcIMGs/googleBar.png';
 
 
-export default class AltLogin extends React.Component {
+export default class AltLogin extends Component {
     constructor(props) {
         super();
 

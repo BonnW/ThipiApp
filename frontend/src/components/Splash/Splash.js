@@ -5,7 +5,7 @@ import './Splash.css';
 import Logo from '../../srcIMGs/Logo.png';
 
 
-export default class Splash extends React.Component { 
+export default class Splash extends Component { 
   constructor(props) {
     super();
 
