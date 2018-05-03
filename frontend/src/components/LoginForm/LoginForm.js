@@ -6,8 +6,11 @@ import {
     Input,
 
 } from 'reactstrap';
+import Logo from '../../srcIMGs/Logo.png';
+
 
 import './LoginForm.css';
+
 
 
 export default class LoginForm extends Component { 
@@ -22,6 +25,7 @@ export default class LoginForm extends Component {
   render() {
     return (
       <div className="Login">
+        <img className="ThipiLogo" src={Logo} alt="ThipiLogo" />
         <Form>
           <FormGroup>
             <Label for="exampleEmail"></Label>
